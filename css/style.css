@@ -5,247 +5,222 @@ body {
   font-weight: normal;
   font-family: "PT Sans", "Arial", serif;
 }
+
 .container {
   width: 1200px;
   margin: 0 auto;
+
+  background-color: aquamarine;
 }
-.main-header {
-  margin-bottom: 0;
+
+
+.main-menu {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  width: 100%;
 }
-.background {
-  margin-bottom: 60px;
-  padding-top: 215px;
+
+
+.main-menu li {
+  display: inline-block;
+  width: 230px;
+  height: 53px;
+  text-align: center;
+  vertical-align: middle;
 }
-.main-navigation {
-  height: 57px;
-  padding-left: 73px;
-  padding-right: 73px;
+
+
+.main-menu h1 {
+  margin: 0;
 }
-.menu-item {
-  float: left;
-  width: 100px;
-  margin-left: 64px;
-  margin-right: 64px;
-  list-style-type: none;
+
+
+.main-image{
+  height: 594px;
+  text-align: center;
 }
-.menu-item:last-child {
-  margin-right: 0;
-}
-.menu-item:first-child {
-  margin-left: 0;
-}
-.menu-item h1{
-  margin-top: 0;
-  width: 138px;
-}
-.main-header::after {
-  content: "";
-  display: block;
-  clear: both;
-}
+
 .logo {
-  width: 458px;
-  height: 78px;
-  margin-left: auto;
-  margin-right: auto;
-  margin-bottom: 278px;
+  padding-top: 217px;
 }
+
 .intro {
-  width: 492px;
+  padding-top: 52px;
+  padding-bottom: 52px;
+  width: 570px;
   margin: 0 auto;
-  margin-bottom: 60px;
+  text-align: center;
 }
+
 .index-content-first {
   height: 256px;
-  margin-bottom: 62px;
 }
+
 .index-content-text-left {
   float: left;
   width: 400px;
 }
+
 .index-content-img-right {
   float: right;
-  width: 800px;
-  margin-left: 0;
-  margin-right: 0;
-  margin-bottom: 0;
-  margin-top: 0;
+  height: 256px;
+  margin: 0;
 }
-.index-content-first::after {
+
+.clearfix::after {
   content: "";
   display: block;
   clear: both;
 }
+
 .features-first {
-  padding-left: 72px;
-  padding-right: 60px;
-  margin-bottom: 85px;
+  padding-top: 60px;
+  text-align: center;
+  padding-bottom: 88px;
 }
+
 .features-item {
   float: left;
-  min-height: 188px;
-  width: 280px;
-  margin-left: 55px;
-  margin-right: 55px;
+  width: 300px;
+  margin-left: 50px;
+  margin-right: 50px;
 
 }
-.features-item:first-child {
-  margin-left: 0;
-}
-.features-item:last-child {
-  margin-right: 0;
-}
-.features-first::after {
-  content: "";
-  display: block;
-  clear: both;
-}
+
+
 .index-content-second {
   height: 256px;
-  margin-bottom: 0;
 }
+
 .index-content-img-left {
   float: left;
-  width: 800px;
-  margin-left: 0;
-  margin-right: 0;
-  margin-bottom: 0;
-  margin-top: 0;
+  height: 256px;
+  margin: 0;
 }
+
 .index-content-text-right {
   float: right;
   width: 400px;
-  min-height: 256px;
 }
-.index-content-second::after {
-  content: "";
-  display: block;
-  clear: both;
-}
+
+
 .features-second {
-  padding-left: 72px;
-  padding-right: 60px;
   padding-top: 50px;
-  margin-bottom: 58px;
+  text-align: center;
+  padding-bottom: 65px;
 }
-.features-second::after {
-  content: "";
-  display: block;
-  clear: both;
-}
+
+
 .search {
   width: 570px;
   margin: 0 auto;
-  padding-top: 55px;
-  padding-left: 59px;
 }
+
 .main-footer {
   height: 120px;
-  padding-top: 37px;
-  padding-bottom: 37px;
+  width: 100%;
 }
-.footer-hashtag {
-  float: left;
-  width: 138px;
-  margin-left: 132px;
-  margin-right: 254px;
-}
-.footer-social{
-  float: left;
-  width: 150px;
 
+.footer-item{
+  display: inline-block;
+  width: 300px;
+  text-align: center;
+  margin-left: 45px;
+  margin-right: 45px;
+  vertical-align: middle;
 }
-.footer-copyright {
-  float: right;
-  margin-right: 102px;
-  width: 198px;
 
-}
+
 .content-selection {
-  margin-bottom: 0;
-  padding-top: 70px;
   padding-left: 73px;
   padding-right: 73px;
+  padding-bottom: 30px;
+  padding-top: 30px;
+
 }
-.conveniences {
-  float: left;
-  width: 140px;
-  margin-right: 114px;
-}
-.housing-type {
-  float: left;
-  width: 140px;
-}
-.filter-and-button {
-  float: right;
-}
-.content-selection li {
+content-selection li {
   list-style-type: none;
 }
-.content-selection::after {
-  content: "";
-  display: block;
-  clear: both;
+
+.conveniences {
+  float: left;
+  width: 230px;
+  margin-right: 25px;
 }
+
+.housing-type {
+  float: left;
+  width: 230px;
+}
+
+.range {
+  float: right;
+  width: 370px;
+}
+
+
 .search-result {
   padding-left: 73px;
   padding-right: 73px;
-  padding-top: 37px;
-  padding-bottom: 37px;
-  margin-bottom: 0;
+  padding-bottom: 40px;
 }
+
+/*разобраться с отступом между блоками и найдено:3 */
 .result-number {
   float: left;
-  width: 115px;
-  margin-right: 50px;
+  width: 120px;
+  margin: 0;
+  padding: 0;
 }
+
 .result-filters-name {
   float:left;
-  width: 78px;
-  margin-right: 40px;
+  width: 90px;
+  margin-left: 45px;
+  margin-right: 30px;
 }
+
 .filters-sorting li {
   float: left;
   list-style-type: none;
-  margin-right: 35px;
+  margin-right: 30px;
 }
+
 .pointers {
   float: right;
 }
-.search-result::after {
-  content: "";
-  display: block;
-  clear: both;
-}
+
+
 .housing-cards {
   padding-left: 37px;
   padding-right: 37px;
-  margin-bottom: 0;
 }
+
 .housing-info {
   padding-top: 30px;
   padding-bottom: 30px;
 }
+
 .housing-image {
   float: left;
   margin-right: 30px;
 }
+
 .more-info {
   float: left;
   width: 110px;
   margin-right: 5px;
   margin-top: 18px;
 }
+
 .housing-price {
   float: left;
   width: 143px;
   margin-top: 18px;
 }
+
 .rating {
   float: right;
 }
-.housing-info::after {
-  content: "";
-  display: block;
-  clear: both;
-}
+
