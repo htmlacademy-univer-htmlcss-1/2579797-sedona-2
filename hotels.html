@@ -1,35 +1,36 @@
 <!DOCTYPE html>
 <html lang="ru">
     <head>
-        <link href="css/style.css" rel="stylesheet">
         <meta charset="utf-8">
+        <link rel="stylesheet" href="css/normalize.css">
+        <link rel="stylesheet" href="css/style.css">
         <title>Sedona</title>
     </head>
     <body>
         <div class="container">
             <header class="main-header">
                 <nav class="main-navigation">
-                    <ul>
-                        <li class="menu-item">
+                    <ul class="main-menu">
+                        <li>
                             <a href="#">Информация</a>
                         </li>
-                        <li class="menu-item">
+                        <li>
                             <a href="#">Фото и видео</a>
                         </li>
-                        <li class="menu-item">
+                        <li>
                             <a href="index.html"><img src="img/logo.png" width="138" height="70" alt="Sedona"></a>
                         </li>
-                        <li class="menu-item">
+                        <li>
                             <a href="#">Карта штата</a>
                         </li>
-                        <li class="menu-item">
+                        <li>
                             <a href="#">Гостиницы</a>
                         </li>
                     </ul>
                 </nav>
             </header>
             <main class="content-main">
-                <div class="content-selection">
+                <div class="content-selection clearfix">
                         <form name="filters" action="#" method="get">
                             <div class="conveniences">
                                 <b class="filters-title">Инфрастуктура:</b>
@@ -65,7 +66,7 @@
                                     </li>
                                 </ul>
                             </div>
-                            <div class="filter-and-button">
+                            <div class="range">
                                 <div class="daily-price">
                                     <b class="filters-title">Стоимость в сутки(р):</b>
                                     <div class="price-range">
@@ -77,12 +78,12 @@
                                         <div class="filter-circle circle-right"></div>
                                         <div class="filter-strip"></div>
                                     </div>
+                                </div>
                                 <button class="btn-content-selection" type="submit">Показать</button>
                             </div>
                         </form>
-                    </div>
                 </div>
-                <div class="search-result">
+                <div class="search-result clearfix">
                     <b class="result-number">Найдено: 3</b>
                     <div class="result-filters">
                         <b class="result-filters-name">Сортировка:</b>
@@ -98,13 +99,13 @@
                             </li>
                         </ul>
                         <div class="pointers">
-                            <a class="pointer-arrow before" href="#"><img src="image/up.png" width="" height="" alt="от меньшего"></a>
-                            <a class="pointer-arrow after" href="#"><img src="image/down.png" width="" height="" alt="от большего"></a>
+                            <a class="pointer-arrow up" href="#"></a>
+                            <a class="pointer-arrow down" href="#"></a>
                         </div>
                     </div>
                 </div>
                 <div class="housing-cards">
-                    <div class="housing-info">
+                    <div class="housing-info clearfix">
                         <div class="housing-image">
                             <img src="img/amararesort.jpg" width="135" height="90" alt="Amara Resort & Spa">
                         </div>
@@ -118,11 +119,10 @@
                             <a class="btn book" href="#">Забронировать</a>
                         </div>
                         <div class="rating">
-                            <img src="img/fourstars.png" width="" height="" alt="4*">
                             <p class="grade">Рейтинг: 8,5</p>
                         </div>
                     </div>
-                    <div class="housing-info">
+                    <div class="housing-info clearfix">
                         <div class="housing-image">
                             <img src="img/desertquailinn.jpg" width="135" height="90" alt="Desert Quail Inn">
                         </div>
@@ -136,11 +136,10 @@
                             <a class="btn book" href="#">Забронировать</a>
                         </div>
                         <div class="rating">
-                            <img src="img/twostars.png" width="" height="" alt="2*">
                             <p class="grade">Рейтинг: 8,9</p>
                         </div>
                     </div>
-                    <div class="housing-info">
+                    <div class="housing-info clearfix">
                         <div class="housing-image">
                             <img src="img/villasatpocodiablo.jpg" width="135" height="90" alt="Villas At Poco Diablo">
                         </div>
@@ -154,22 +153,21 @@
                             <a class="btn book" href="#">Забронировать</a>
                         </div>
                         <div class="rating">
-                            <img src="img/threestars.png" width="" height="" alt="3*">
                             <p class="grade">Рейтинг: 9,2</p>
                         </div>
                     </div>
                 </div>
             </main>
             <footer class="main-footer">
-                <section class="footer-hashtag">
+                <section class="footer-hashtag footer-item">
                     <p>#VisitSedona</p>
                 </section>
-                <section class="footer-social">
+                <section class="footer-social footer-item">
                     <a class="social-btn social-btn-Twi" href="#">Twitter</a>
                     <a class="social-btn social-btn-fb" href="#">Facebook</a>
                     <a class="social-btn social-btn-youtube" href="#">YouTube</a>
                 </section>
-                <section class="footer-copyright">
+                <section class="footer-copyright footer-item">
                     Website by
                     <a href="https://htmlacademy.ru"><img src="img/HTMLAcademy.png" width="113" height="39" alt="HTMLAcademy"></a>
                 </section>
