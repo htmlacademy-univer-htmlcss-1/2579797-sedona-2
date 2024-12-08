@@ -1,0 +1,251 @@
+body {
+  font-size: 14px;
+  line-height: 21px;
+  color: #333333;
+  font-weight: normal;
+  font-family: "PT Sans", "Arial", serif;
+}
+.container {
+  width: 1200px;
+  margin: 0 auto;
+}
+.main-header {
+  margin-bottom: 0;
+}
+.background {
+  margin-bottom: 60px;
+  padding-top: 215px;
+}
+.main-navigation {
+  height: 57px;
+  padding-left: 73px;
+  padding-right: 73px;
+}
+.menu-item {
+  float: left;
+  width: 100px;
+  margin-left: 64px;
+  margin-right: 64px;
+  list-style-type: none;
+}
+.menu-item:last-child {
+  margin-right: 0;
+}
+.menu-item:first-child {
+  margin-left: 0;
+}
+.menu-item h1{
+  margin-top: 0;
+  width: 138px;
+}
+.main-header::after {
+  content: "";
+  display: block;
+  clear: both;
+}
+.logo {
+  width: 458px;
+  height: 78px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 278px;
+}
+.intro {
+  width: 492px;
+  margin: 0 auto;
+  margin-bottom: 60px;
+}
+.index-content-first {
+  height: 256px;
+  margin-bottom: 62px;
+}
+.index-content-text-left {
+  float: left;
+  width: 400px;
+}
+.index-content-img-right {
+  float: right;
+  width: 800px;
+  margin-left: 0;
+  margin-right: 0;
+  margin-bottom: 0;
+  margin-top: 0;
+}
+.index-content-first::after {
+  content: "";
+  display: block;
+  clear: both;
+}
+.features-first {
+  padding-left: 72px;
+  padding-right: 60px;
+  margin-bottom: 85px;
+}
+.features-item {
+  float: left;
+  min-height: 188px;
+  width: 280px;
+  margin-left: 55px;
+  margin-right: 55px;
+
+}
+.features-item:first-child {
+  margin-left: 0;
+}
+.features-item:last-child {
+  margin-right: 0;
+}
+.features-first::after {
+  content: "";
+  display: block;
+  clear: both;
+}
+.index-content-second {
+  height: 256px;
+  margin-bottom: 0;
+}
+.index-content-img-left {
+  float: left;
+  width: 800px;
+  margin-left: 0;
+  margin-right: 0;
+  margin-bottom: 0;
+  margin-top: 0;
+}
+.index-content-text-right {
+  float: right;
+  width: 400px;
+  min-height: 256px;
+}
+.index-content-second::after {
+  content: "";
+  display: block;
+  clear: both;
+}
+.features-second {
+  padding-left: 72px;
+  padding-right: 60px;
+  padding-top: 50px;
+  margin-bottom: 58px;
+}
+.features-second::after {
+  content: "";
+  display: block;
+  clear: both;
+}
+.search {
+  width: 570px;
+  margin: 0 auto;
+  padding-top: 55px;
+  padding-left: 59px;
+}
+.main-footer {
+  height: 120px;
+  padding-top: 37px;
+  padding-bottom: 37px;
+}
+.footer-hashtag {
+  float: left;
+  width: 138px;
+  margin-left: 132px;
+  margin-right: 254px;
+}
+.footer-social{
+  float: left;
+  width: 150px;
+
+}
+.footer-copyright {
+  float: right;
+  margin-right: 102px;
+  width: 198px;
+
+}
+.content-selection {
+  margin-bottom: 0;
+  padding-top: 70px;
+  padding-left: 73px;
+  padding-right: 73px;
+}
+.conveniences {
+  float: left;
+  width: 140px;
+  margin-right: 114px;
+}
+.housing-type {
+  float: left;
+  width: 140px;
+}
+.filter-and-button {
+  float: right;
+}
+.content-selection li {
+  list-style-type: none;
+}
+.content-selection::after {
+  content: "";
+  display: block;
+  clear: both;
+}
+.search-result {
+  padding-left: 73px;
+  padding-right: 73px;
+  padding-top: 37px;
+  padding-bottom: 37px;
+  margin-bottom: 0;
+}
+.result-number {
+  float: left;
+  width: 115px;
+  margin-right: 50px;
+}
+.result-filters-name {
+  float:left;
+  width: 78px;
+  margin-right: 40px;
+}
+.filters-sorting li {
+  float: left;
+  list-style-type: none;
+  margin-right: 35px;
+}
+.pointers {
+  float: right;
+}
+.search-result::after {
+  content: "";
+  display: block;
+  clear: both;
+}
+.housing-cards {
+  padding-left: 37px;
+  padding-right: 37px;
+  margin-bottom: 0;
+}
+.housing-info {
+  padding-top: 30px;
+  padding-bottom: 30px;
+}
+.housing-image {
+  float: left;
+  margin-right: 30px;
+}
+.more-info {
+  float: left;
+  width: 110px;
+  margin-right: 5px;
+  margin-top: 18px;
+}
+.housing-price {
+  float: left;
+  width: 143px;
+  margin-top: 18px;
+}
+.rating {
+  float: right;
+}
+.housing-info::after {
+  content: "";
+  display: block;
+  clear: both;
+}
