@@ -9,8 +9,6 @@ body {
 .container {
   width: 1200px;
   margin: 0 auto;
-
-  background-color: aquamarine;
 }
 
 
@@ -223,4 +221,3 @@ content-selection li {
 .rating {
   float: right;
 }
-
