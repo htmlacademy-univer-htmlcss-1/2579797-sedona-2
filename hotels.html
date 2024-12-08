@@ -6,23 +6,23 @@
         <title>Sedona</title>
     </head>
     <body>
-        <div class="container background">
+        <div class="container">
             <header class="main-header">
                 <nav class="main-navigation">
                     <ul>
-                        <li>
+                        <li class="menu-item">
                             <a href="#">Информация</a>
                         </li>
-                        <li>
+                        <li class="menu-item">
                             <a href="#">Фото и видео</a>
                         </li>
-                        <li>
+                        <li class="menu-item">
                             <a href="index.html"><img src="img/logo.png" width="138" height="70" alt="Sedona"></a>
                         </li>
-                        <li>
+                        <li class="menu-item">
                             <a href="#">Карта штата</a>
                         </li>
-                        <li>
+                        <li class="menu-item">
                             <a href="#">Гостиницы</a>
                         </li>
                     </ul>
@@ -30,8 +30,6 @@
             </header>
             <main class="content-main">
                 <div class="content-selection">
-                    <div class="housing-options">
-                        <h1 class="hide-title">Поиск жилья</h1>
                         <form name="filters" action="#" method="get">
                             <div class="conveniences">
                                 <b class="filters-title">Инфрастуктура:</b>
@@ -67,19 +65,20 @@
                                     </li>
                                 </ul>
                             </div>
-                            <div class="daily-price">
-                                <b class="filters-title">Стоимость в сутки(р):</b>
-                                <div class="price-range">
-                                    <input type="text" name="pricemin" placeholder="От 0">
-                                    <input type="text" name="pricemax" placeholder="До 3000">
-                                </div>
-                                <div class="filter">
-                                    <div class="filter-circle circle-left"></div>
-                                    <div class="filter-circle circle-right"></div>
-                                    <div class="filter-strip"></div>
-                                </div>
+                            <div class="filter-and-button">
+                                <div class="daily-price">
+                                    <b class="filters-title">Стоимость в сутки(р):</b>
+                                    <div class="price-range">
+                                        <input type="text" name="pricemin" placeholder="От 0">
+                                        <input type="text" name="pricemax" placeholder="До 3000">
+                                    </div>
+                                    <div class="filter">
+                                        <div class="filter-circle circle-left"></div>
+                                        <div class="filter-circle circle-right"></div>
+                                        <div class="filter-strip"></div>
+                                    </div>
+                                <button class="btn-content-selection" type="submit">Показать</button>
                             </div>
-                            <button class="btn-content-selection" type="submit">Показать</button>
                         </form>
                     </div>
                 </div>
@@ -98,8 +97,10 @@
                                 <a href="#">по рейтингу</a>
                             </li>
                         </ul>
-                         <a class="pointer-arrow before" href="#"><img src="image/up.png" width="" height="" alt="от меньшего"></a>
-                         <a class="pointer-arrow after" href="#"><img src="image/down.png" width="" height="" alt="от большего"></a>
+                        <div class="pointers">
+                            <a class="pointer-arrow before" href="#"><img src="image/up.png" width="" height="" alt="от меньшего"></a>
+                            <a class="pointer-arrow after" href="#"><img src="image/down.png" width="" height="" alt="от большего"></a>
+                        </div>
                     </div>
                 </div>
                 <div class="housing-cards">
@@ -107,7 +108,7 @@
                         <div class="housing-image">
                             <img src="img/amararesort.jpg" width="135" height="90" alt="Amara Resort & Spa">
                         </div>
-                        <b class="housing-name">Amara Resort &#38; Spa</b>
+                        <b class="housing-name">Amara Resort &#38; Spa</b><br>
                         <div class="more-info">
                             <b class="main-housing-info">Гостиница</b>
                             <a class="btn detail" href="#">Подробнее</a>
@@ -125,7 +126,7 @@
                         <div class="housing-image">
                             <img src="img/desertquailinn.jpg" width="135" height="90" alt="Desert Quail Inn">
                         </div>
-                        <b class="housing-name">Desert Quail Inn</b>
+                        <b class="housing-name">Desert Quail Inn</b><br>
                         <div class="more-info">
                             <b class="main-housing-info">Мотель</b>
                             <a class="btn detail" href="#">Подробнее</a>
@@ -143,7 +144,7 @@
                         <div class="housing-image">
                             <img src="img/villasatpocodiablo.jpg" width="135" height="90" alt="Villas At Poco Diablo">
                         </div>
-                        <b class="housing-name">Villas At Poco Diablo</b>
+                        <b class="housing-name">Villas At Poco Diablo</b><br>
                         <div class="more-info">
                             <b class="main-housing-info">Апартаменты</b>
                             <a class="btn detail" href="#">Подробнее</a>
@@ -169,7 +170,7 @@
                     <a class="social-btn social-btn-youtube" href="#">YouTube</a>
                 </section>
                 <section class="footer-copyright">
-                    <p>Website by</p>
+                    Website by
                     <a href="https://htmlacademy.ru"><img src="img/HTMLAcademy.png" width="113" height="39" alt="HTMLAcademy"></a>
                 </section>
             </footer>
